@@ -74,7 +74,7 @@ public class GetterSetterProcessor extends AbstractProcessor {
         ListBuffer<JCTree.JCStatement> statements = new ListBuffer<>();
         // 生成return this.<varName>
         JCTree.JCReturn returnStatement = treeMaker.Return(
-                treeMaker.Select(treeMaker.Ident(names.fromString("this")), jcVariableDecl.getName())
+                treeMaker.Select(treeMaker.Ident(names._this), jcVariableDecl.getName())
         );
         statements.append(returnStatement);
         JCTree.JCBlock block = treeMaker.Block(0, statements.toList());
