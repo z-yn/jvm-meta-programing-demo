@@ -1,4 +1,4 @@
-package com.github.alex.kapt.meta.annotation
+package com.github.alex.meta.kapt.annotation
 
 @Retention(AnnotationRetention.SOURCE)
 @Target(AnnotationTarget.TYPE)

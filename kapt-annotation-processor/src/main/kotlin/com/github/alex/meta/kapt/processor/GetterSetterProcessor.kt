@@ -1,7 +1,7 @@
 @file:Suppress("JAVA_MODULE_DOES_NOT_EXPORT_PACKAGE")
-package com.github.alex.kapt.meta.processor
+package com.github.alex.meta.kapt.processor
 
-import com.github.alex.kapt.meta.annotation.Getter
+import com.github.alex.meta.kapt.annotation.Getter
 import com.sun.source.tree.Tree
 import com.sun.tools.javac.api.JavacTrees
 import com.sun.tools.javac.code.Flags

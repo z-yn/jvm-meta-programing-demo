@@ -1,11 +1,8 @@
 package com.githu.alex.meta.test;
 
 
-import com.github.alex.kapt.meta.annotation.Getter;
-import com.github.alex.kapt.meta.annotation.Setter;
-
-@Getter
-@Setter
+//@com.github.alex.meta.annotation.Getter
+//@com.github.alex.meta.annotation.Setter
 public class TestGetterSetter {
     private String name;
 
