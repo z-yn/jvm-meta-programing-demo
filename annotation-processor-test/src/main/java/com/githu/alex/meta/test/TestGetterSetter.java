@@ -1,7 +1,8 @@
 package com.githu.alex.meta.test;
 
-import com.github.alex.meta.annotation.Getter;
-import com.github.alex.meta.annotation.Setter;
+
+import com.github.alex.kapt.meta.annotation.Getter;
+import com.github.alex.kapt.meta.annotation.Setter;
 
 @Getter
 @Setter

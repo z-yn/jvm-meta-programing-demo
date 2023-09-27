@@ -40,4 +40,8 @@ JVM上元编程测试。
         </plugins>
     </build>
 ```
-目前测试JDK11是可以的。但是使用JDK17测试本项目是会编译报错的。待排查问题
+目前测试JDK11是可以的。
+
+但是使用JDK17以及JDK21测试本项目是会编译报错的。应该是因为[JEP 403: Strongly Encapsulate JDK Internals](https://openjdk.org/jeps/403)
+
+测试下来。直接使用是不行的。但是使用反射
