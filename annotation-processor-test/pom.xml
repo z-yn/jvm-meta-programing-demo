@@ -11,12 +11,6 @@
 
     <artifactId>annotation-processor-test</artifactId>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.github.alex</groupId>
@@ -24,22 +18,6 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-<!--    <build>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <annotationProcessorPaths>-->
-<!--                        <path>-->
-<!--                            <groupId>com.github.alex</groupId>-->
-<!--                            <artifactId>kapt-annotation-processor</artifactId>-->
-<!--                            <version>1.0-SNAPSHOT</version>-->
-<!--                        </path>-->
-<!--                    </annotationProcessorPaths>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </build>-->
+
 
 </project>
